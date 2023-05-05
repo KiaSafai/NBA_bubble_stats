@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>P5 - NBA Team Bubble Preformances</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="heading">
+            <h3>NBA Regular Season vs. Bubble Games Average Performances</h3>
+            <label for="teams">Choose a team:</label>
+            <select name="teams" id="teams">
+                <option value=""></option>
+            </select>
+            <button id='go'>GO</button>
+        </div>
+        <div class="chart-container"></div>
+        <div class="player-grid-header"></div>
+        <div class="player-grid"></div>
+        <div class="player-grid-footer"></div>
+        
+    </div>
+</body>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/radar-chart.js"></script>
+<script src="./js/player-stats.js"></script>
+</html>
